@@ -1,0 +1,25 @@
+
+Call:
+lm(formula = frm, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-9.2959 -0.5122 -0.0255  0.5014 11.2297 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             -0.06497    0.02093  -3.104 0.001927 ** 
+dUSDHUF                  0.06714    0.01970   3.409 0.000662 ***
+TED.spread              -0.06089    0.02100  -2.900 0.003762 ** 
+HUF.3Y.HUF.5Y.overquote  0.14177    0.06302   2.250 0.024545 *  
+Swap.3M.spread           0.03573    0.02110   1.694 0.090420 .  
+HUN.5Y.USD.CDS           0.04442    0.01860   2.388 0.016996 *  
+EMBI                    -0.03057    0.02267  -1.348 0.177698    
+FX.tender               -0.03199    0.02128  -1.503 0.132879    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.012 on 2816 degrees of freedom
+Multiple R-squared:  0.01278,	Adjusted R-squared:  0.01032 
+F-statistic: 5.206 on 7 and 2816 DF,  p-value: 6.526e-06
+
